@@ -1,0 +1,39 @@
+.pagina {
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.rotar-derecha {
+  transform: rotate(90deg);
+}
+
+.rotar-izquierda {
+  transform: rotate(-90deg);
+}
+
+.btn-interactivos {
+  display: flex;
+  gap: 20px; 
+}
+
+.btn-interactivos button {
+  background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.btn-interactivos button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+

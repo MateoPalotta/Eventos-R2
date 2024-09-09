@@ -1,0 +1,56 @@
+.ad-numero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding: 20px;
+  }
+  
+  .ad-numero form {
+    background-color: #EDDCD9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .ad-numero label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .ad-numero input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .ad-numero button {
+    background: #DE5499;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ad-numero p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .ad-numero p {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
